@@ -2,10 +2,11 @@ streamlit==1.51.0
 ultralytics==8.3.241
 torch==2.9.1 --index-url https://download.pytorch.org/whl/cpu
 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cpu
-opencv-python-headless==4.12.0.88  # Замена на headless-версию для Streamlit Cloud
+opencv-python-handless
 numpy==2.2.6
 Pillow==12.0.0
 pandas==2.3.3
 matplotlib==3.10.7
 seaborn==0.13.2
 requests==2.32.5
+
