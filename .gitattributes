@@ -1,0 +1,1 @@
+CV_fd_deploy/models/best_fd.pt filter=lfs diff=lfs merge=lfs -text
