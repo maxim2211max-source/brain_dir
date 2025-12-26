@@ -1,11 +1,11 @@
-streamlit>=1.28.0
-ultralytics>=8.0.0
-torch>=2.0.0
-opencv-python>=4.8.0
-numpy>=1.24.0
-Pillow>=10.0.0
-requests>=2.31.0
-pandas>=2.0.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-
+streamlit==1.51.0
+ultralytics==8.3.241
+torch==2.9.1 --index-url https://download.pytorch.org/whl/cpu  # CPU-only версия для Streamlit Cloud
+torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cpu  # Зависимость torch
+opencv-python==4.12.0.88
+numpy==2.2.6
+Pillow==12.0.0
+pandas==2.3.3
+matplotlib==3.10.7
+seaborn==0.13.2
+requests==2.32.5  
